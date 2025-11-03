@@ -1,4 +1,4 @@
-# Performance Test Framework Docker Base
+# Performance Testing Framework for Web Applications
 
 Framework for Performance Testing with :
 * Jmeter : Backend load testing
