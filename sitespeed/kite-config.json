@@ -1,0 +1,27 @@
+{
+  "browsertime": {
+    "iterations": 1,
+    "browser": "chrome",
+    "cacheClearRaw": true,
+    "connectivity": {
+      "profile": "native"
+    }
+  },
+  "filmstrip": {
+    "showAll": true
+  },
+  "webpagetest": {
+    "host":"webpagetestserver",
+    "location":"Test",
+    "includeRepeatView":true,
+    "runs": 3
+  },
+  "influxdb": {
+    "host": "influxdb",
+    "username":"admin",
+    "password":"admin",
+    "database":"sitespeed",
+    "groupSeparator":".",
+    "tags":"Kite"
+  }
+}
